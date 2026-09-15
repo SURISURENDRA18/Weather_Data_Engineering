@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables & secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (raw extracts)
+data/raw/
+
+# Airflow runtime logs & generated config
+logs/
+config/airflow.cfg
+
+# OS metadata
+.DS_Store
